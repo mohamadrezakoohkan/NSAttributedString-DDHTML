@@ -70,6 +70,19 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  Generates an attributed string from HTML.
  *
+ *  @param htmlString HTML String
+ *  @param normalFont Font to use for general text
+ *  @param boldFont   Font to use for \<b\> and \<strong\> tags
+ *  @param italicFont Font to use for \<i\> and \<em\> tags
+ *  @param includeLinks Parse \<a\> tags
+ *
+ *  @return Attributed string
+ */
++ (NSAttributedString *)attributedStringFromHTML:(NSString *)htmlString normalFont:(UIFont *)normalFont boldFont:(UIFont *)boldFont italicFont:(UIFont *)italicFont includeLinks:(BOOL)includeLinks;
+
+/**
+ *  Generates an attributed string from HTML.
+ *
  *  @param htmlString   HTML String
  *  @param normalFont   Font to use for general text
  *  @param boldFont     Font to use for \<b\> and \<strong\> tags
@@ -79,6 +92,20 @@ NS_ASSUME_NONNULL_BEGIN
  *  @return Attributed string
  */
 + (NSAttributedString *)attributedStringFromHTML:(NSString *)htmlString normalFont:(UIFont *)normalFont boldFont:(UIFont *)boldFont italicFont:(UIFont *)italicFont imageMap:(NSDictionary<NSString *, UIImage *> *)imageMap;
+
+/**
+ *  Generates an attributed string from HTML.
+ *
+ *  @param htmlString   HTML String
+ *  @param normalFont   Font to use for general text
+ *  @param boldFont     Font to use for \<b\> and \<strong\> tags
+ *  @param italicFont   Font to use for \<i\> and \<em\> tags
+ *  @param imageMap     Images to use in place of standard bundle images.
+ *  @param includeLinks Parse \<a\> tags
+ *
+ *  @return Attributed string
+ */
++ (NSAttributedString *)attributedStringFromHTML:(NSString *)htmlString normalFont:(UIFont *)normalFont boldFont:(UIFont *)boldFont italicFont:(UIFont *)italicFont imageMap:(NSDictionary<NSString *, UIImage *> *)imageMap includeLinks:(BOOL)includeLinks;
 
 @end
 
