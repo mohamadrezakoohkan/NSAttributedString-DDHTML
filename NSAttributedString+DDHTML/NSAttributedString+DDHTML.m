@@ -304,9 +304,6 @@
             }
             
             [nodeAttributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:nodeAttributedStringRange];
-			
-			// MR - For some reason they are not adding the paragraph space when parsing the <p> tag
-			[nodeAttributedString appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n"]];
         }
 
 
