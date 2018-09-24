@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.source    = { :git => 'https://github.com/miLibris/NSAttributedString-DDHTML.git', :tag => "v#{s.version}" }
   s.description  = 'Simplifies working with NSAttributedString by allowing you to use HTML to describe formatting behaviors.'
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
