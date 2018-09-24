@@ -11,14 +11,14 @@
 		5508610B2158DC55001A69FF /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */; };
 		5508610D2158DC76001A69FF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508610C2158DC75001A69FF /* libxml2.tbd */; };
 		550861132158DF2D001A69FF /* NSAttributedString_DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 550861112158DF19001A69FF /* NSAttributedString_DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550861212158DF7D001A69FF /* NSAttributedString+DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA378A616701A280092D30F /* NSAttributedString+DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550861222158DF82001A69FF /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */; };
-		550861232158DF91001A69FF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508610C2158DC75001A69FF /* libxml2.tbd */; };
 		550861312158E01E001A69FF /* NSAttributedString+DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA378A616701A280092D30F /* NSAttributedString+DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		550861322158E021001A69FF /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */; };
 		550861342158E02B001A69FF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 550861332158E02B001A69FF /* libxml2.tbd */; };
 		550861352158E160001A69FF /* NSAttributedString_DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 550861112158DF19001A69FF /* NSAttributedString_DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		550861362158E161001A69FF /* NSAttributedString_DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 550861112158DF19001A69FF /* NSAttributedString_DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5508616A21593DF1001A69FF /* NSAttributedString_DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 550861112158DF19001A69FF /* NSAttributedString_DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5508616B21593DF6001A69FF /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */; };
+		5508616C21593DFA001A69FF /* NSAttributedString+DDHTML.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA378A616701A280092D30F /* NSAttributedString+DDHTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5508616E21593E10001A69FF /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5508616D21593E10001A69FF /* libxml2.tbd */; };
 		AA9A4B81166FE7A80006F4EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A4B80166FE7A80006F4EE /* UIKit.framework */; };
 		AA9A4B83166FE7A80006F4EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A4B82166FE7A80006F4EE /* Foundation.framework */; };
 		AA9A4B85166FE7A80006F4EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A4B84166FE7A80006F4EE /* CoreGraphics.framework */; };
@@ -30,7 +30,6 @@
 		AA9A4B97166FE7A80006F4EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA9A4B96166FE7A80006F4EE /* Default-568h@2x.png */; };
 		AA9A4B9A166FE7A80006F4EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9A4B98166FE7A80006F4EE /* MainStoryboard.storyboard */; };
 		AA9A4B9D166FE7A80006F4EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9A4B9C166FE7A80006F4EE /* ViewController.m */; };
-		AA9A4BA7166FF1AA0006F4EE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A4BA6166FF1AA0006F4EE /* libxml2.dylib */; };
 		AAA378A816701A280092D30F /* NSAttributedString+DDHTML.m in Sources */ = {isa = PBXBuildFile; fileRef = AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */; };
 		D11933B11BD0883F00E34F3A /* car.png in Resources */ = {isa = PBXBuildFile; fileRef = D11933B01BD0883F00E34F3A /* car.png */; };
 /* End PBXBuildFile section */
@@ -40,9 +39,10 @@
 		5508610C2158DC75001A69FF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		550861112158DF19001A69FF /* NSAttributedString_DDHTML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSAttributedString_DDHTML.h; sourceTree = "<group>"; };
 		550861122158DF19001A69FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		550861192158DF65001A69FF /* NSAttributedString_DDHTML_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSAttributedString_DDHTML_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		550861292158E00F001A69FF /* NSAttributedString_DDHTML_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSAttributedString_DDHTML_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		550861292158E00F001A69FF /* NSAttributedString_DDHTML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSAttributedString_DDHTML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		550861332158E02B001A69FF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
+		55086162215937BC001A69FF /* NSAttributedString_DDHTML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NSAttributedString_DDHTML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5508616D21593E10001A69FF /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/usr/lib/libxml2.tbd; sourceTree = DEVELOPER_DIR; };
 		AA9A4B7C166FE7A80006F4EE /* HTMLToAttributedString.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HTMLToAttributedString.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9A4B80166FE7A80006F4EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AA9A4B82166FE7A80006F4EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,7 +59,6 @@
 		AA9A4B99166FE7A80006F4EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		AA9A4B9B166FE7A80006F4EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		AA9A4B9C166FE7A80006F4EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AA9A4BA6166FF1AA0006F4EE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		AAA378A616701A280092D30F /* NSAttributedString+DDHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+DDHTML.h"; sourceTree = "<group>"; };
 		AAA378A716701A280092D30F /* NSAttributedString+DDHTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+DDHTML.m"; sourceTree = "<group>"; };
 		D11933B01BD0883F00E34F3A /* car.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car.png; sourceTree = "<group>"; };
@@ -74,14 +73,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		550861162158DF65001A69FF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550861232158DF91001A69FF /* libxml2.tbd in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		550861262158E00F001A69FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,11 +81,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5508615F215937BC001A69FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5508616E21593E10001A69FF /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		AA9A4B79166FE7A80006F4EE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA9A4BA7166FF1AA0006F4EE /* libxml2.dylib in Frameworks */,
 				AA9A4B81166FE7A80006F4EE /* UIKit.framework in Frameworks */,
 				AA9A4B83166FE7A80006F4EE /* Foundation.framework in Frameworks */,
 				AA9A4B85166FE7A80006F4EE /* CoreGraphics.framework in Frameworks */,
@@ -116,7 +114,6 @@
 		AA9A4B71166FE7A80006F4EE = {
 			isa = PBXGroup;
 			children = (
-				AA9A4BA6166FF1AA0006F4EE /* libxml2.dylib */,
 				AA9A4B86166FE7A80006F4EE /* HTMLToAttributedString */,
 				AAA378A516701A280092D30F /* NSAttributedString+DDHTML */,
 				550861392158E1E2001A69FF /* NSAttributedString_DDHTML */,
@@ -130,8 +127,8 @@
 			children = (
 				AA9A4B7C166FE7A80006F4EE /* HTMLToAttributedString.app */,
 				550861022158DBEF001A69FF /* NSAttributedString_DDHTML.framework */,
-				550861192158DF65001A69FF /* NSAttributedString_DDHTML_tvOS.framework */,
-				550861292158E00F001A69FF /* NSAttributedString_DDHTML_watchOS.framework */,
+				550861292158E00F001A69FF /* NSAttributedString_DDHTML.framework */,
+				55086162215937BC001A69FF /* NSAttributedString_DDHTML.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +138,7 @@
 			children = (
 				5508610C2158DC75001A69FF /* libxml2.tbd */,
 				550861332158E02B001A69FF /* libxml2.tbd */,
+				5508616D21593E10001A69FF /* libxml2.tbd */,
 				AA9A4B80166FE7A80006F4EE /* UIKit.framework */,
 				AA9A4B82166FE7A80006F4EE /* Foundation.framework */,
 				AA9A4B84166FE7A80006F4EE /* CoreGraphics.framework */,
@@ -197,21 +195,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		550861142158DF65001A69FF /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550861362158E161001A69FF /* NSAttributedString_DDHTML.h in Headers */,
-				550861212158DF7D001A69FF /* NSAttributedString+DDHTML.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		550861242158E00F001A69FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				550861352158E160001A69FF /* NSAttributedString_DDHTML.h in Headers */,
 				550861312158E01E001A69FF /* NSAttributedString+DDHTML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5508615D215937BC001A69FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5508616A21593DF1001A69FF /* NSAttributedString_DDHTML.h in Headers */,
+				5508616C21593DFA001A69FF /* NSAttributedString+DDHTML.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,24 +234,6 @@
 			productReference = 550861022158DBEF001A69FF /* NSAttributedString_DDHTML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		550861182158DF65001A69FF /* NSAttributedString_DDHTML_tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5508611E2158DF66001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_tvOS" */;
-			buildPhases = (
-				550861142158DF65001A69FF /* Headers */,
-				550861152158DF65001A69FF /* Sources */,
-				550861162158DF65001A69FF /* Frameworks */,
-				550861172158DF65001A69FF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = NSAttributedString_DDHTML_tvOS;
-			productName = NSAttributedString_DDHTML_tvOS;
-			productReference = 550861192158DF65001A69FF /* NSAttributedString_DDHTML_tvOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		550861282158E00F001A69FF /* NSAttributedString_DDHTML_watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5508612E2158E00F001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_watchOS" */;
@@ -269,7 +249,25 @@
 			);
 			name = NSAttributedString_DDHTML_watchOS;
 			productName = NSAttributedString_DDHTML_watchOS;
-			productReference = 550861292158E00F001A69FF /* NSAttributedString_DDHTML_watchOS.framework */;
+			productReference = 550861292158E00F001A69FF /* NSAttributedString_DDHTML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		55086161215937BC001A69FF /* NSAttributedString_DDHTML_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55086167215937BC001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_tvOS" */;
+			buildPhases = (
+				5508615D215937BC001A69FF /* Headers */,
+				5508615E215937BC001A69FF /* Sources */,
+				5508615F215937BC001A69FF /* Frameworks */,
+				55086160215937BC001A69FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSAttributedString_DDHTML_tvOS;
+			productName = NSAttributedString_DDHTML_tvOS;
+			productReference = 55086162215937BC001A69FF /* NSAttributedString_DDHTML.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AA9A4B7B166FE7A80006F4EE /* HTMLToAttributedString */ = {
@@ -302,11 +300,11 @@
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
-					550861182158DF65001A69FF = {
+					550861282158E00F001A69FF = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
-					550861282158E00F001A69FF = {
+					55086161215937BC001A69FF = {
 						CreatedOnToolsVersion = 10.0;
 						ProvisioningStyle = Automatic;
 					};
@@ -326,8 +324,8 @@
 			targets = (
 				AA9A4B7B166FE7A80006F4EE /* HTMLToAttributedString */,
 				550861012158DBEF001A69FF /* NSAttributedString_DDHTML_iOS */,
-				550861182158DF65001A69FF /* NSAttributedString_DDHTML_tvOS */,
 				550861282158E00F001A69FF /* NSAttributedString_DDHTML_watchOS */,
+				55086161215937BC001A69FF /* NSAttributedString_DDHTML_tvOS */,
 			);
 		};
 /* End PBXProject section */
@@ -340,14 +338,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		550861172158DF65001A69FF /* Resources */ = {
+		550861272158E00F001A69FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		550861272158E00F001A69FF /* Resources */ = {
+		55086160215937BC001A69FF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,19 +376,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		550861152158DF65001A69FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				550861222158DF82001A69FF /* NSAttributedString+DDHTML.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		550861252158E00F001A69FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				550861322158E021001A69FF /* NSAttributedString+DDHTML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5508615E215937BC001A69FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5508616B21593DF6001A69FF /* NSAttributedString+DDHTML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,125 +544,6 @@
 			};
 			name = Release;
 		};
-		5508611F2158DF66001A69FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = NSAttributedString_DDHTML/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		550861202158DF66001A69FF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = NSAttributedString_DDHTML/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5508612F2158E00F001A69FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -695,7 +574,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = NSAttributedString_DDHTML;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -737,13 +616,93 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = NSAttributedString_DDHTML;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		55086168215937BC001A69FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSAttributedString_DDHTML/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-tvOS";
+				PRODUCT_NAME = NSAttributedString_DDHTML;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55086169215937BC001A69FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = NSAttributedString_DDHTML/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.milibris.NSAttributedString-DDHTML-tvOS";
+				PRODUCT_NAME = NSAttributedString_DDHTML;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 12.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -884,20 +843,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5508611E2158DF66001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_tvOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5508611F2158DF66001A69FF /* Debug */,
-				550861202158DF66001A69FF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		5508612E2158E00F001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5508612F2158E00F001A69FF /* Debug */,
 				550861302158E00F001A69FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55086167215937BC001A69FF /* Build configuration list for PBXNativeTarget "NSAttributedString_DDHTML_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55086168215937BC001A69FF /* Debug */,
+				55086169215937BC001A69FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

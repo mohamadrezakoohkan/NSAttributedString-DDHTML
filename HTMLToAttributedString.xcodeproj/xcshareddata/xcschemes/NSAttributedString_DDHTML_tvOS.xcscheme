@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "550861182158DF65001A69FF"
+               BlueprintIdentifier = "55086161215937BC001A69FF"
                BuildableName = "NSAttributedString_DDHTML_tvOS.framework"
                BlueprintName = "NSAttributedString_DDHTML_tvOS"
                ReferencedContainer = "container:HTMLToAttributedString.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "550861182158DF65001A69FF"
+            BlueprintIdentifier = "55086161215937BC001A69FF"
             BuildableName = "NSAttributedString_DDHTML_tvOS.framework"
             BlueprintName = "NSAttributedString_DDHTML_tvOS"
             ReferencedContainer = "container:HTMLToAttributedString.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "550861182158DF65001A69FF"
+            BlueprintIdentifier = "55086161215937BC001A69FF"
             BuildableName = "NSAttributedString_DDHTML_tvOS.framework"
             BlueprintName = "NSAttributedString_DDHTML_tvOS"
             ReferencedContainer = "container:HTMLToAttributedString.xcodeproj">
